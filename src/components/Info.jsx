@@ -1,8 +1,12 @@
+import profileImg from "/src/assets/img.webp";
+import mail from "/src/assets/mail.svg";
+import linkedin from "/src/assets/linkedin.svg";
+
 export default function Info() {
 	return (
 		<div className="profile">
 			<img
-				src="/src/assets/img.webp"
+				src={profileImg}
 				alt="Claudio's profile image"
 				className="profile-img"
 			/>
@@ -11,10 +15,10 @@ export default function Info() {
 				<h4 className="profile-work">Frontend Developer</h4>
 				<p className="profile-web">claudiomarino.website</p>
 				<button className="profile-button profile-button-mail">
-					<img src="/src/assets/mail.svg" alt="" /> Email
+					<img src={mail} alt="" /> Email
 				</button>
 				<button className="profile-button profile-button-linkedin">
-					<img src="/src/assets/linkedin.svg" alt="" /> LinkedIn
+					<img src={linkedin} alt="" /> LinkedIn
 				</button>
 			</div>
 		</div>
