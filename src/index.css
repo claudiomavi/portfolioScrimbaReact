@@ -66,3 +66,51 @@ body {
 	align-items: center;
 	justify-content: center;
 }
+.about {
+	padding: 0 35px;
+	padding-bottom: 27px;
+	background-color: #1a1b21;
+	width: 100%;
+}
+
+.about-title {
+	font-size: 16px;
+	margin-bottom: 5px;
+	color: #f5f5f5;
+}
+
+.about-description {
+	font-size: 10.24px;
+	color: #dcdcdc;
+}
+
+.interest {
+	padding: 0 35px;
+	padding-bottom: 27px;
+	background-color: #1a1b21;
+	width: 100%;
+}
+
+.interest-title {
+	font-size: 16px;
+	margin-bottom: 5px;
+	color: #f5f5f5;
+}
+
+.interest-description {
+	font-size: 10.24px;
+	color: #dcdcdc;
+	margin-bottom: 24px;
+}
+
+.footer {
+	display: flex;
+	background-color: #161619;
+	padding: 19px 72px;
+	margin-bottom: 10vh;
+	border-radius: 0 0 10px 10px;
+}
+
+.footer a {
+	display: flex;
+}
