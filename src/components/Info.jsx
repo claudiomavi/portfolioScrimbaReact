@@ -13,13 +13,25 @@ export default function Info() {
 			<div className="profile-datas">
 				<h2 className="profile-name">Claudio Marino</h2>
 				<h4 className="profile-work">Frontend Developer</h4>
-				<p className="profile-web">claudiomarino.website</p>
-				<button className="profile-button profile-button-mail">
-					<img src={mail} alt="" /> Email
-				</button>
-				<button className="profile-button profile-button-linkedin">
-					<img src={linkedin} alt="" /> LinkedIn
-				</button>
+				<a
+					href="https://claudiomarino.netlify.app/"
+					target="_blank"
+					rel="noopener noreferrer">
+					<p className="profile-web">👆 claudiomarino.curriculum 👆</p>
+				</a>
+				<a href="mailto:claudio.marino@outlook.es">
+					<button className="profile-button profile-button-mail">
+						<img src={mail} alt="" /> Email
+					</button>
+				</a>
+				<a
+					href="https://www.linkedin.com/in/claudio-marino-b3420b296/"
+					target="_blank"
+					rel="noopener noreferrer">
+					<button className="profile-button profile-button-linkedin">
+						<img src={linkedin} alt="" /> LinkedIn
+					</button>
+				</a>
 			</div>
 		</div>
 	);

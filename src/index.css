@@ -27,19 +27,26 @@ body {
 	width: 100%;
 	text-align: center;
 }
+
+.profile-datas a {
+	color: #5093e2;
+}
+
 .profile-name {
 	color: #ffffff;
 	font-size: 25px;
 	margin-top: 21px;
 }
+
 .profile-work {
 	color: #f3bf99;
 	font-size: 12.8px;
 	margin-top: 7px;
 }
+
 .profile-web {
 	color: #ffffff;
-	font-size: 10.24px;
+	font-size: 10.8px;
 	margin-top: 9px;
 }
 
@@ -51,12 +58,18 @@ body {
 	margin-bottom: 33px;
 	font-size: 14px;
 	font-weight: 500;
+	cursor: pointer;
 }
 .profile-button-mail {
 	margin-right: 17px;
 	background-color: #ffffff;
 	color: #374151;
 	padding: 9px 28px;
+}
+
+.profile-button-mail:hover {
+	background-color: #ffffffad;
+	color: #37415173;
 }
 .profile-button-linkedin {
 	background-color: #5093e2;
@@ -65,6 +78,10 @@ body {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
+}
+.profile-button-linkedin:hover {
+	background-color: #5094e28e;
+	color: #ffffffad;
 }
 .about {
 	padding: 0 35px;
