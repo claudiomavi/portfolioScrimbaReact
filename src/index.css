@@ -124,7 +124,7 @@ body {
 .footer {
 	display: flex;
 	background-color: #161619;
-	padding: 19px 72px;
+	padding: 19px 100px;
 	margin-bottom: 10vh;
 	border-radius: 0 0 10px 10px;
 }
