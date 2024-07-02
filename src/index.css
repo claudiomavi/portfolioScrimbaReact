@@ -100,6 +100,7 @@ body {
 .about-description {
 	font-size: 10.24px;
 	color: #dcdcdc;
+	text-align: justify;
 }
 
 .interest {
@@ -119,6 +120,15 @@ body {
 	font-size: 10.24px;
 	color: #dcdcdc;
 	margin-bottom: 24px;
+	text-align: justify;
+}
+
+.interest .profile-web {
+	text-align: center;
+}
+
+.interest a {
+	color: #5093e2;
 }
 
 .footer {
