@@ -14,11 +14,11 @@ export default function Info() {
 				<h2 className="profile-name">Claudio Marino</h2>
 				<h4 className="profile-work">Frontend Developer</h4>
 				<a
-					href="https://claudiomarino.netlify.app/"
-					target="_blank"
-					rel="noopener noreferrer">
-					<p className="profile-web">👆 claudiomarino.curriculum 👆</p>
-				</a>
+				href="https://misproyectosdestacados.netlify.app/"
+				target="_blank"
+				rel="noopener noreferrer">
+				<p className="profile-web">👆 Mis proyectos destacados 👆</p>
+			       </a>
 				<a href="mailto:claudio.marino@outlook.es">
 					<button className="profile-button profile-button-mail">
 						<img src={mail} alt="" /> Email
