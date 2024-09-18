@@ -3,7 +3,7 @@ export default function Interest() {
 		<div className="interest">
 			<h3 className="interest-title">Intereses</h3>
 			<p className="interest-description">
-				Jugador de pádel. Lector apasionado. Fanatico de la teconlogía.
+				Jugador de pádel. Lector apasionado. Fanatico de la tecnología.
 			</p>
 			<a
 				href="https://misproyectosdestacados.netlify.app/"
