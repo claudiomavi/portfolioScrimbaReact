@@ -2,8 +2,7 @@
 	margin: 0 auto;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "Inter", sans-serif;
-	max-width: 317px;
+	font-family: 'Inter', sans-serif;
 }
 
 body {
@@ -15,11 +14,10 @@ body {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	margin-top: 10vh;
 }
 
 .profile-img {
-	border-radius: 10px 10px 0 0;
+	max-width: 100%;
 	background-color: #f0f2e6;
 }
 
@@ -49,9 +47,18 @@ body {
 	color: #ffffff;
 	font-size: 10.8px;
 	margin-top: 9px;
+	transition: 0.3s all;
+}
+
+.profile-web:hover {
+	opacity: 0.5;
 }
 
 .profile-button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	column-gap: 4px;
 	width: 115px;
 	border-radius: 6px;
 	border: none;
@@ -66,24 +73,23 @@ body {
 	background-color: #ffffff;
 	color: #374151;
 	padding: 9px 28px;
+	transition: 0.3s all;
 }
 
-.profile-button-mail:hover {
-	background-color: #ffffffad;
-	color: #37415173;
-}
 .profile-button-linkedin {
 	background-color: #5093e2;
 	color: #ffffff;
 	padding: 9px 17px;
-	display: inline-flex;
 	align-items: center;
 	justify-content: center;
+	transition: 0.3s all;
 }
+
+.profile-button-mail:hover,
 .profile-button-linkedin:hover {
-	background-color: #5094e28e;
-	color: #ffffffad;
+	opacity: 0.5;
 }
+
 .about {
 	padding: 0 35px;
 	padding-bottom: 27px;
@@ -135,10 +141,68 @@ body {
 	display: flex;
 	background-color: #161619;
 	padding: 19px 100px;
-	margin-bottom: 10vh;
-	border-radius: 0 0 10px 10px;
 }
 
 .footer a {
 	display: flex;
+	transition: 0.3s all;
+}
+
+.footer a:hover {
+	opacity: 0.5;
+}
+
+@media (min-width: 560px) {
+	* {
+		max-width: 550px;
+	}
+
+	.profile {
+		margin-top: 10vh;
+	}
+
+	.profile-img {
+		border-radius: 10px 10px 0 0;
+	}
+
+	.profile-name {
+		font-size: 40px;
+	}
+
+	.profile-work {
+		font-size: 20px;
+	}
+
+	.profile-web {
+		font-size: 18px;
+	}
+
+	.profile-button {
+		width: 150px;
+		font-size: 22px;
+	}
+
+	.profile-button-mail {
+		padding: 12px 35px;
+	}
+
+	.profile-button-linkedin {
+		padding: 12px 25px;
+	}
+
+	.about-title,
+	.interest-title {
+		font-size: 25px;
+		margin-bottom: 8px;
+	}
+
+	.about-description,
+	.interest-description {
+		font-size: 16px;
+	}
+
+	.footer {
+		margin-bottom: 10vh;
+		border-radius: 0 0 10px 10px;
+	}
 }
