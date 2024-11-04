@@ -6,7 +6,7 @@ export default function Interest() {
 				Padel player. Passionate reader. Technology enthusiast.
 			</p>
 			<a
-				href="https://misproyectosdestacados.netlify.app/"
+				href="https://myhighlightedprojects.netlify.app/"
 				target="_blank"
 				rel="noopener noreferrer">
 				<p className="profile-web">👆 My highlighted projects 👆</p>
