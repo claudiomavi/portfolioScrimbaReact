@@ -1,6 +1,6 @@
-import profileImg from "/src/assets/img.webp";
-import mail from "/src/assets/mail.svg";
-import linkedin from "/src/assets/linkedin.svg";
+import profileImg from '/src/assets/img.webp'
+import mail from '/src/assets/mail.svg'
+import linkedin from '/src/assets/linkedin.svg'
 
 export default function Info() {
 	return (
@@ -14,14 +14,18 @@ export default function Info() {
 				<h2 className="profile-name">Claudio Marino</h2>
 				<h4 className="profile-work">Frontend Developer</h4>
 				<a
-				href="https://misproyectosdestacados.netlify.app/"
-				target="_blank"
-				rel="noopener noreferrer">
-				<p className="profile-web">👆 Mis proyectos destacados 👆</p>
-			       </a>
+					href="https://misproyectosdestacados.netlify.app/"
+					target="_blank"
+					rel="noopener noreferrer">
+					<p className="profile-web">👆 Mis proyectos destacados 👆</p>
+				</a>
 				<a href="mailto:claudio.marino@outlook.es">
 					<button className="profile-button profile-button-mail">
-						<img src={mail} alt="" /> Email
+						<img
+							src={mail}
+							alt=""
+						/>{' '}
+						Email
 					</button>
 				</a>
 				<a
@@ -29,10 +33,14 @@ export default function Info() {
 					target="_blank"
 					rel="noopener noreferrer">
 					<button className="profile-button profile-button-linkedin">
-						<img src={linkedin} alt="" /> LinkedIn
+						<img
+							src={linkedin}
+							alt=""
+						/>{' '}
+						LinkedIn
 					</button>
 				</a>
 			</div>
 		</div>
-	);
+	)
 }
