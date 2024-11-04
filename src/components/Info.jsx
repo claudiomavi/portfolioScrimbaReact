@@ -14,7 +14,7 @@ export default function Info() {
 				<h2 className="profile-name">Claudio Marino</h2>
 				<h4 className="profile-work">Frontend Developer</h4>
 				<a
-					href="https://misproyectosdestacados.netlify.app/"
+					href="https://myhighlightedprojects.netlify.app/"
 					target="_blank"
 					rel="noopener noreferrer">
 					<p className="profile-web">👆 My highlighted projects 👆</p>
