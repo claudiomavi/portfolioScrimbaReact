@@ -1,13 +1,12 @@
 export default function About() {
 	return (
 		<div className="about">
-			<h3 className="about-title">Sobre mi</h3>
+			<h3 className="about-title">About Me </h3>
 			<p className="about-description">
-				Soy desarrollador frontend y me encanta hacer que las cosas sean más
-				sencillas y automatizar las tareas diarias. Intento mantenerme al día
-				con la seguridad y las mejores prácticas, y siempre estoy buscando
-				nuevas cosas que aprender.
+				I am a front-end developer passionate about simplifying processes and automating daily
+				tasks. I strive to stay updated on security and best practices while continually seeking new
+				things to learn.
 			</p>
 		</div>
-	);
+	)
 }
