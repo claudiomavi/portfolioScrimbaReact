@@ -17,7 +17,7 @@ export default function Info() {
 					href="https://misproyectosdestacados.netlify.app/"
 					target="_blank"
 					rel="noopener noreferrer">
-					<p className="profile-web">👆 Mis proyectos destacados 👆</p>
+					<p className="profile-web">👆 My highlighted projects 👆</p>
 				</a>
 				<a href="mailto:claudio.marino@outlook.es">
 					<button className="profile-button profile-button-mail">
