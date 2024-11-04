@@ -1,7 +1,5 @@
-import twitter from "/src/assets/twitter.svg";
-import facebook from "/src/assets/facebook.svg";
-import instagram from "/src/assets/instagram.svg";
-import github from "/src/assets/github.svg";
+import instagram from '/src/assets/instagram.svg'
+import github from '/src/assets/github.svg'
 
 export default function Footer() {
 	return (
@@ -16,14 +14,22 @@ export default function Footer() {
 				href="https://www.instagram.com/marinodeveloper?igsh=eGRydXI0aDd4ZWgw"
 				target="_blank"
 				rel="noopener noreferrer">
-				<img src={instagram} alt="instagram icon" className="footer-icon" />
+				<img
+					src={instagram}
+					alt="instagram icon"
+					className="footer-icon"
+				/>
 			</a>
 			<a
 				href="https://github.com/claudiomavi"
 				target="_blank"
 				rel="noopener noreferrer">
-				<img src={github} alt="github icon" className="footer-icon" />
+				<img
+					src={github}
+					alt="github icon"
+					className="footer-icon"
+				/>
 			</a>
 		</div>
-	);
+	)
 }
