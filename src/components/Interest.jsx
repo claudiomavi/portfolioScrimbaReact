@@ -6,7 +6,7 @@ export default function Interest() {
 				Jugador de pádel. Lector apasionado. Fanatico de la tecnología.
 			</p>
 			<a
-				href="https://myhighlightedprojects.netlify.app/"
+				href="https://claudiomarinoen.netlify.app/"
 				target="_blank"
 				rel="noopener noreferrer">
 				<p className="profile-web">👆 Mis proyectos destacados 👆</p>
