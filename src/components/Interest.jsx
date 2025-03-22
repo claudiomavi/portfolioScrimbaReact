@@ -3,7 +3,7 @@ export default function Interest() {
 		<div className="interest">
 			<h3 className="interest-title">Interests</h3>
 			<p className="interest-description">
-				Jugador de pádel. Lector apasionado. Fanatico de la tecnología.
+				React developer, technology enthusiast, and padel player. Always eager to learn and improve.
 			</p>
 			<a
 				href="https://claudiomarinoen.netlify.app/"
