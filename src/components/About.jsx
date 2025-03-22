@@ -3,9 +3,9 @@ export default function About() {
 		<div className="about">
 			<h3 className="about-title">About Me </h3>
 			<p className="about-description">
-				I am a front-end developer passionate about simplifying processes and automating daily
-				tasks. I strive to stay updated on security and best practices while continually seeking new
-				things to learn.
+				I&apos;m a frontend developer passionate about streamlining processes and automating daily
+				tasks. I prioritize security and best practices while constantly exploring new technologies
+				to enhance my skill set.
 			</p>
 		</div>
 	)
