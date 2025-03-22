@@ -6,10 +6,10 @@ export default function Interest() {
 				React developer, technology enthusiast, and padel player. Always eager to learn and improve.
 			</p>
 			<a
-				href="https://claudiomarinoen.netlify.app/"
+				href="https://myhighlightedprojects.netlify.app/"
 				target="_blank"
 				rel="noopener noreferrer">
-				<p className="profile-web">👆 Mis proyectos destacados 👆</p>
+				<p className="profile-web">👆 My highlighted projects 👆</p>
 			</a>
 		</div>
 	)
