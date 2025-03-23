@@ -9,10 +9,11 @@ export default function Info() {
 				src={profileImg}
 				alt="Claudio's profile image"
 				className="profile-img"
+				loading="eager"
 			/>
 			<div className="profile-datas">
-				<h2 className="profile-name">Claudio Marino</h2>
-				<h4 className="profile-work">Frontend Developer</h4>
+				<h1 className="profile-name">Claudio Marino</h1>
+				<h2 className="profile-work">Front-End Developer | React & JavaScript</h2>
 				<a
 					href="https://myhighlightedprojects.netlify.app/"
 					target="_blank"
@@ -23,7 +24,8 @@ export default function Info() {
 					<button className="profile-button profile-button-mail">
 						<img
 							src={mail}
-							alt=""
+							alt="Email icon"
+							loading="lazy"
 						/>{' '}
 						Email
 					</button>
@@ -35,7 +37,8 @@ export default function Info() {
 					<button className="profile-button profile-button-linkedin">
 						<img
 							src={linkedin}
-							alt=""
+							alt="LinkedIn icon"
+							loading="lazy"
 						/>{' '}
 						LinkedIn
 					</button>

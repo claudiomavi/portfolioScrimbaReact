@@ -18,6 +18,7 @@ export default function Footer() {
 					src={instagram}
 					alt="instagram icon"
 					className="footer-icon"
+					loading="lazy"
 				/>
 			</a>
 			<a
@@ -28,6 +29,7 @@ export default function Footer() {
 					src={github}
 					alt="github icon"
 					className="footer-icon"
+					loading="lazy"
 				/>
 			</a>
 		</div>

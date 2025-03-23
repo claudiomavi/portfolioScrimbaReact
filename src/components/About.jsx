@@ -1,11 +1,13 @@
 export default function About() {
 	return (
 		<div className="about">
-			<h3 className="about-title">About Me </h3>
+			<h2 className="about-title">About Me</h2>
 			<p className="about-description">
-				I&apos;m a frontend developer passionate about streamlining processes and automating daily
-				tasks. I prioritize security and best practices while constantly exploring new technologies
-				to enhance my skill set.
+				I&apos;m a Front-End Developer with expertise in React and JavaScript, focused on creating
+				efficient and user-friendly web applications. I combine modern CSS techniques with
+				responsive design principles to deliver seamless user experiences. Currently expanding
+				my skills in web development while maintaining a strong foundation in best practices
+				and clean code architecture.
 			</p>
 		</div>
 	)
